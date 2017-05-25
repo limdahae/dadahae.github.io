@@ -34,8 +34,17 @@ body {
     text-align: center;
     width: 400px;
 }
+.container #stopWatch #controls {
+    width: 350px;
+    margin: 0 auto;
+}
 .container #stopWatch #controls a {
-    background-color: #000;
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    border : 1px solid #bcbcbc;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 .container #stopWatch{
     padding-top: 50px;
